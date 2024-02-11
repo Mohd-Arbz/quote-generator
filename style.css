@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select, button {
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .quote-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  #quote{
+    color: black;
+  }
+
+  /* Responsive Styles */
+@media screen and (max-width: 600px) {
+    .container {
+      max-width: 90%;
+    }
+  
+    select, button {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
